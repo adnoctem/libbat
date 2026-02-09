@@ -2,11 +2,12 @@
 
 ## ➕ Additions
 
-_..TBA_
+- [Batch script to install MSI](https://stackoverflow.com/questions/25229460/batch-script-to-install-msi)
+- [Batch file download from a URL](https://stackoverflow.com/questions/4619088/windows-batch-file-file-download-from-a-url)
 
 ## ✏️ Planned Changes
 
-_..TBA_
+- [Commenting multiple lines in DOS batch file](https://stackoverflow.com/questions/8526946/commenting-multiple-lines-in-dos-batch-file)
 
 ## 💡 Ideas
 
@@ -14,4 +15,6 @@ _..TBA_
 
 ## 🔗 Links
 
-_..TBA_
+- [Windows batch scripting simplified](https://alekdavis.blogspot.com/2011/11/windows-batch-scripting-simplified.html)
+- [Is it possible to source a batch file like in Unix?](https://stackoverflow.com/questions/12825790/is-it-possible-to-source-a-batch-file-in-windows-cmd-like-you-can-in-unix)
+- [What does `%~dp0` mean, and how does it work?](https://stackoverflow.com/questions/5034076/what-does-dp0-mean-and-how-does-it-work)
