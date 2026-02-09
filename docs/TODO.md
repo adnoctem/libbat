@@ -4,6 +4,7 @@
 
 - [Batch script to install MSI](https://stackoverflow.com/questions/25229460/batch-script-to-install-msi)
 - [Batch file download from a URL](https://stackoverflow.com/questions/4619088/windows-batch-file-file-download-from-a-url)
+- [Create batch-based installer for `PowerShell`](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)
 
 ## ✏️ Planned Changes
 
