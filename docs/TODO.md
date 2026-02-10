@@ -12,7 +12,19 @@
 
 ## 💡 Ideas
 
-_..TBA_
+- [DOS file multi-line comment](https://stackoverflow.com/questions/8526946/commenting-multiple-lines-in-dos-batch-file)
+- [Accessing Batch funtions in another file](https://stackoverflow.com/questions/19798777/accessing-batch-functions-in-another-batch-file)
+- [How to package all my functions in a batch as a separate file?](https://stackoverflow.com/questions/18742150/how-to-package-all-my-functions-in-a-batch-file-as-a-seperate-file/18751689#18751689)
+- [Assign output of program to a variable using batch file](https://stackoverflow.com/questions/2323292/assign-output-of-a-program-to-a-variable-using-a-ms-batch-file)
+- [Store output of Windows command in batch file](https://serverfault.com/questions/245679/store-output-of-windows-command-in-batch-file)
+- [Assign batch functions in another file](https://stackoverflow.com/questions/19798777/accessing-batch-functions-in-another-batch-file)
+- [Batch - Cheat Sheet](https://christianspecht.de/2013/05/12/batch-file-cheat-sheet/)
+- [Batch - EnableDelayedExpansion](https://ss64.com/nt/delayedexpansion.html)
+- [GitHub: illsk1lls/RetroControlPanel](https://github.com/illsk1lls/RetroControlPanel)
+- [Batch script to check and install software](https://community.spiceworks.com/t/batch-script-to-check-and-install-software/764869)
+- [Batch script to install MSI](https://stackoverflow.com/questions/25229460/batch-script-to-install-msi)
+- [Switch statement in Windows batch file](https://stackoverflow.com/questions/18423443/switch-statement-equivalent-in-windows-batch-file)
+- [Batch escape characters](https://www.robvanderwoude.com/escapechars.php)
 
 ## 🔗 Links
 
