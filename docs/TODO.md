@@ -28,6 +28,7 @@
 
 ## 🔗 Links
 
+- [GitHub: jrsoftware/issrc](https://github.com/jrsoftware/issrc/blob/main/compile.bat)
 - [Windows batch scripting simplified](https://alekdavis.blogspot.com/2011/11/windows-batch-scripting-simplified.html)
 - [Is it possible to source a batch file like in Unix?](https://stackoverflow.com/questions/12825790/is-it-possible-to-source-a-batch-file-in-windows-cmd-like-you-can-in-unix)
 - [What does `%~dp0` mean, and how does it work?](https://stackoverflow.com/questions/5034076/what-does-dp0-mean-and-how-does-it-work)
