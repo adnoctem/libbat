@@ -17,7 +17,7 @@ goto :description
 @REM Usage: call :require_admin
 :require_admin
   net session >nul 2>&1 || (
-    call "%~dp0\log.bat" :log_error "This script requires administrative privileges. Please run as administrator."
+    call "%~dp0\log.cmd" :log_error "This script requires administrative privileges. Please run as administrator."
     exit /b 1
   )
 exit /b 0

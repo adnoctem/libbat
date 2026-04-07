@@ -1,6 +1,17 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
+rem ==============================================================
+rem Delete a file from all immediate subdirectories of a root directory
+rem
+rem Usage:
+rem   delete-files.cmd <root_directory> <filename>
+rem
+rem Arguments:
+rem   <root_directory>  The root directory whose immediate subdirectories to search.
+rem   <filename>        The name of the file to delete from each subdirectory.
+rem ==============================================================
+
 rem === Argument validation ===
 if "%~1"=="" (
     echo [ERROR] Missing root directory argument 1>&2

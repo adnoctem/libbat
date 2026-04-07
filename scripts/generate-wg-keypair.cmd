@@ -5,11 +5,12 @@ rem ==============================================================
 rem Generate WireGuard private/public key pair
 rem
 rem Usage:
-rem   generate-wg-keypair.bat <output-path> [private-filename] [public-filename]
+rem   generate-wg-keypair.cmd <output-path> [private-filename] [public-filename]
 rem
-rem Defaults:
-rem   private-filename = privatekey
-rem   public-filename  = publickey
+rem Arguments:
+rem   <output-path>      Directory where the key files will be created.
+rem   [private-filename] Optional name for the private key file (default: privatekey)
+rem   [public-filename]  Optional name for the public key file (default: publickey)
 rem ==============================================================
 
 if "%~1"=="" goto :usage
