@@ -4,19 +4,16 @@
       <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/en/7/7c/Batch_file_icon.png">
       <img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Batch_file_icon.png" width="256">
     </picture>
-    <h1 align="center">libbat</h1>
+    <h1 align="center">libcmd</h1>
 </p>
 
-A library of open-source [MIT][license]-licensed Windows [Command Prompt][cmd] (`cmd`) [Batch (`bat`) scripts][cmd_bat] written and maintained by `Ad Noctem Collective` for use with modern Windows environments. Refer to Microsoft's [`cmd` Documentation][cmd_docs] for more information on how these scripts work. Scripts meant for direct execution by the user, an init system or other means of automation are located in the [`scripts`](scripts) directory. The [`lib`](lib) directory contains library scripts meant to be re-used across files or even different repositories with things like [Git Submodules][git_submodules] or _contrib_ scripts like [git_subtree]. You may of course take a look at other repositories of ours for tips on how to achieve re-use.
+A library of open-source [MIT][license]-licensed Windows [Command Prompt][cmd] (`cmd`) [Batch scripts][cmd_bat] written and maintained by `Ad Noctem Collective` for use with modern Windows environments. Refer to Microsoft's [`cmd` Documentation][cmd_docs] for more information on how these scripts work. Scripts meant for direct execution by the user, an init system or other means of automation are located in the [`scripts`](scripts) directory. The [`lib`](lib) directory contains library scripts meant to be re-used across files or even different repositories with things like [Git Submodules][git_submodules] or _contrib_ scripts like [git_subtree]. You may of course take a look at other repositories of ours for tips on how to achieve re-use.
 
 ## ✨ TL;DR
 
 ```pwsh
-# initialize the project (download dependencies)
-git clone --recurse-submodules
-
 # run a script
-.\scripts\example.bat
+.\scripts\example.cmd
 ```
 
 ### 🔃 Contributing
