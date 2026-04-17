@@ -8,6 +8,10 @@ rem   runas-admin.cmd <script>
 rem
 rem Arguments:
 rem   <script>  Full path to the .cmd script to run as Administrator.
+rem
+rem Examples:
+rem   runas-admin.cmd "C:\Scripts\my-script.cmd"
+rem   runas-admin.cmd install-winget.cmd
 rem ==============================================================
 
 set "LIB_DIR=%~dp0..\lib"

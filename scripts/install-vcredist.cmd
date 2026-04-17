@@ -8,6 +8,10 @@ rem   install-vcredist.cmd <version>
 rem
 rem Arguments:
 rem   <version>  The VC++ version to install (e.g. 14.0, 12.0, 11.0, 10.0, 9.0, 8.0)
+rem
+rem Examples:
+rem   install-vcredist.cmd 14.0
+rem   install-vcredist.cmd 12.0
 rem ==============================================================
 
 set "LIB_DIR=%~dp0..\lib"
@@ -87,7 +91,7 @@ set "INSTALLER=%TEMP_DIR%\vcredist_%ARCH%.exe"
 
 @REM Download the installer
 call "%LIB_DIR%\log.cmd" :log "Downloading VC++ %VERSION% (%ARCH%)..."
-call "%LIB_DIR%\transfer.cmd" :download_file "%DOWNLOAD_URL%" "%INSTALLER%"
+call "%LIB_DIR%\download.cmd" :download "%DOWNLOAD_URL%" "%INSTALLER%"
 
 @REM Install silently without prompting for a restart
 call "%LIB_DIR%\log.cmd" :log "Installing VC++ %VERSION% (%ARCH%)..."

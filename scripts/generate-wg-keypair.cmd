@@ -11,6 +11,10 @@ rem Arguments:
 rem   <output-path>      Directory where the key files will be created.
 rem   [private-filename] Optional name for the private key file (default: privatekey)
 rem   [public-filename]  Optional name for the public key file (default: publickey)
+rem
+rem Examples:
+rem   generate-wg-keypair.cmd "C:\WireGuard\keys"
+rem   generate-wg-keypair.cmd "C:\WireGuard\keys" mykey mykey.pub
 rem ==============================================================
 
 if "%~1"=="" goto :usage

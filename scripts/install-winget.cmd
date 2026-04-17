@@ -8,6 +8,9 @@ rem   install-winget.cmd <version>
 rem
 rem Arguments:
 rem   <version>  The winget release version to install (e.g. 1.9.25200)
+rem
+rem Examples:
+rem   install-winget.cmd 1.9.25200
 rem ==============================================================
 
 set "LIB_DIR=%~dp0..\lib"
@@ -49,13 +52,13 @@ set "VCLIBS_FILE=%TEMP_DIR%\VCLibs.appx"
 
 @REM Download the winget package and its dependencies
 call "%LIB_DIR%\log.cmd" :log "Downloading winget %VERSION%..."
-call "%LIB_DIR%\transfer.cmd" :download_file "%MSIX_URL%" "%MSIX_FILE%"
+call "%LIB_DIR%\download.cmd" :download "%MSIX_URL%" "%MSIX_FILE%"
 
 call "%LIB_DIR%\log.cmd" :log "Downloading VCLibs dependency..."
-call "%LIB_DIR%\transfer.cmd" :download_file "%VCLIBS_URL%" "%VCLIBS_FILE%"
+call "%LIB_DIR%\download.cmd" :download "%VCLIBS_URL%" "%VCLIBS_FILE%"
 
 call "%LIB_DIR%\log.cmd" :log "Downloading winget license..."
-call "%LIB_DIR%\transfer.cmd" :download_file "%LICENSE_URL%" "%LICENSE_FILE%"
+call "%LIB_DIR%\download.cmd" :download "%LICENSE_URL%" "%LICENSE_FILE%"
 
 @REM Install VCLibs dependency first
 call "%LIB_DIR%\log.cmd" :log "Installing VCLibs dependency..."

@@ -9,6 +9,9 @@ rem version. winget must be installed first — run 'install-winget.cmd' if need
 rem
 rem Usage:
 rem   install-powershell.cmd
+rem
+rem Examples:
+rem   install-powershell.cmd
 rem ==============================================================
 
 set "LIB_DIR=%~dp0..\lib"

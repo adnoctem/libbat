@@ -10,6 +10,10 @@ rem
 rem Arguments:
 rem   <root_directory>  The root directory whose immediate subdirectories to search.
 rem   <filename>        The name of the file to delete from each subdirectory.
+rem
+rem Examples:
+rem   delete-files.cmd "C:\Projects" "desktop.ini"
+rem   delete-files.cmd "D:\Repos" ".gitkeep"
 rem ==============================================================
 
 rem === Argument validation ===
